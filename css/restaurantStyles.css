@@ -1,0 +1,71 @@
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
+}
+a:visited{
+    color:lightcoral;
+}
+a:active {
+    text-decoration: none;
+}
+
+header {
+    text-align: center;
+    font-family: 'Hepta Slab', serif;
+}
+
+footer {
+    text-align: center;
+}
+
+.menucontainer {
+    background-color: lightcoral;
+    display: grid;
+    padding: 5% 10% 5% 10%;
+    grid-template-areas: "m m m"
+    "m m m"
+}
+
+.MenuName {
+    font-size: 30px;
+    grid-template: m;
+}
+
+.bodybg {
+    background-color: lightcoral;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.required {
+    font-weight: bold;
+}
+
+.menutable {
+    padding-left: 30%;
+    padding-right: 30%;
+}
+
+th {
+    text-align: left;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.formarea {
+    margin: 0 auto;
+    width: 75%;
+ text-align: center;
+}
